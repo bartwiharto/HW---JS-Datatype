@@ -71,20 +71,21 @@ const bondFilms = [
 
 // console.log(bondTitles);
 
-let oddBonds = [];
+// let oddBonds = [];
 
-for (i = 0; i < bondFilms.length; i++) {
-	oddBonds.push(bondFilms[i].years % 2 !== 0);
+// for (i = 0; i < bondFilms.length; i++) {
+// 	oddBonds.push(bondFilms[i].years % 2 !== 0);
+// }
+
+// console.log(oddBonds);
+
+let gross = (bondFilms[1].gross.split(""));
+let gross = (bondFilms[1].gross.replace('$', '').replace(/,/g, ''));
+// for (i = 0, i < bondFilms.length, i++) {
+console.log(gross);  
 }
 
-console.log(oddBonds);
-
-
-
-
-
-
-
+//It's close! but couldn't figure out by start of class
 
 
 
